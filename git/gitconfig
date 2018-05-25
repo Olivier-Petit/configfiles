@@ -1,0 +1,41 @@
+[user]
+	name = # name
+	email = # e-mail
+[core]
+	editor = vim
+#	autocrlf = auto # For windows
+	autocrlf = input # For mac
+[web]
+	browser = google-chrome
+[color]
+	ui = auto
+[color "branch"]
+	current = yellow bold
+	local = green bold
+	remote = cyan bold
+[color "diff"]
+	meta = yellow bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
+[color "status"]
+	added = green bold
+	changed = yellow bold
+	untracked = red bold
+[alias]
+	br = branch
+	bra = branch -a
+	ci = commit
+	cia = commit -a
+	a = add
+	d = diff
+	l = log --oneline
+	lg = log --oneline --graph --decorate
+	llg = log --pretty=format:"%C(yellow)%h%Creset%x20%ad%x20%C(green)%an%Creset%x09%C(auto)%d%Creset%s" --date=format:'%d/%m/%y %R' --graph --decorate
+	m = merge
+	co = checkout
+	ps = push
+	pl = pull
+	st = status
+	sb = status -s -b
