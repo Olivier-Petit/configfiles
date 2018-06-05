@@ -30,6 +30,7 @@
 	cia = commit -a
 	a = add
 	d = diff
+	dc = diff --cached
 	l = log --oneline
 	lg = log --oneline --graph --decorate
 	llg = log --pretty=format:"%C(yellow)%h%Creset%x20%ad%x20%C(green)%an%Creset%x09%C(auto)%d%Creset%s" --date=format:'%d/%m/%y %R' --graph --decorate
