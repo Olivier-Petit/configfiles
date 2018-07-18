@@ -2,6 +2,7 @@
 alias ls='ls -F'
 alias ll='ls -l'
 alias cd..="cd .."
+alias c="clear"
 
 export CLICOLOR=1
 export LSCOLORS=ExGxBxDxCxEgEdxbxgxcxd
