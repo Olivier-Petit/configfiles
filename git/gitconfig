@@ -5,6 +5,7 @@
 	editor = vim
 #	autocrlf = auto # For windows
 	autocrlf = input # For mac
+	pager = less -S
 [web]
 	browser = google-chrome
 [color]
