@@ -29,7 +29,7 @@
 	bra = branch -a
 	ci = commit
 	cia = commit -a
-	su = submodule update
+	suir = submodule update --init --recursive
 	a = add
 	d = diff
 	dc = diff --cached
