@@ -63,5 +63,19 @@
         "key": "alt+o",
         "command": "-C_Cpp.SwitchHeaderSource",
         "when": "editorTextFocus && editorLangId == 'c'"
+    },
+    {
+        "key": "ctrl+alt+cmd+[Backquote]",
+        "command": "-editor.action.commentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+9",
+        "command": "-workbench.action.lastEditorInGroup"
+    },
+    {
+        "key": "cmd+9",
+        "command": "-toggleExplainMode",
+        "when": "suggestWidgetVisible"
     }
 ]
